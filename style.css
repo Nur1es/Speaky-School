@@ -1,0 +1,1358 @@
+*{
+    position: 0;
+    margin: 0;
+    /* border: 1px solid; */
+    font-family: 'Raleway', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1261px;
+    margin: auto;
+    height: 50px;
+    margin-top: 50px
+}
+select{
+    font-family: 'Raleway', sans-serif;
+    border: none;
+}
+.select{
+    width: 353px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    font-size: 16px;
+}
+.icon{
+    width: 333px;
+    display: flex;
+    justify-content: space-between;
+}
+.block1{
+    width: 673px;
+    display: flex;
+    justify-content: space-between;
+}
+.headerText{
+    width: 665px;
+    height: 292px;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    width: 671px;
+    height: 198px;
+    font-size: 50px;
+}
+.headerButton{
+    width: 232px;
+    height: 54px;
+    background: #236967;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.headerBlock2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 1260px;
+    height: 560px;
+    margin-top: 60px;
+    align-items: center;
+}
+.kids{
+    width: 223px;
+    height: 150px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.english > span{
+    width: 145px;
+    background-color: white;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+    /* right: 40px; */
+}
+.imgKids{
+    z-index: -1;
+}
+.english{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+    position: relative;
+    right: 40px;
+    top: 30px;
+}
+.imgBlock{
+    display: flex;
+    width: 562px;
+    height: 150px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.contender2{
+    width: 1260px;
+    margin: auto;
+}
+.blockLang{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 174px;
+    height: 40px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px
+}
+.courses{
+    display: flex;
+    align-items: center;
+    width: 1260px;
+    height: 274px;
+    background: #FFFBED;
+    border-radius: 70px;
+    margin: auto;
+    margin-top: 70px;
+
+}
+.languages{
+    width: 827px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+}
+.study{
+    width: 827px;
+    height: 34px;
+    display: flex;
+    margin: auto;
+    
+}
+.contener1{
+    width: 827px;
+    height: 114px;
+    margin: auto;
+}
+.infoBlock1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    width: 340px;
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tichers{
+    width: 243px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+}
+.infoBlock2{
+    display: flex;
+    flex-direction: column;
+    width: 243px;
+    height: 270px;
+    justify-content: space-around;
+}
+.infoBlock3{
+    display: flex;
+    flex-direction: column;
+    width: 243px;
+    height: 270px;
+    justify-content: space-around;
+}
+.informationBlock{
+    width: 1096px;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 140px;
+}
+
+
+
+
+
+
+
+
+.regestration{
+    display: flex;
+    width:  420px;
+    height: 429px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pol{
+    display: flex;
+    width: 420px;
+    height: 33px;
+    justify-content: space-between;
+    text-align: center;
+}
+.man{
+    border-bottom: 2px solid #94C6C4;
+    width: 200px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+.kid{
+    border-bottom: 2px solid;
+    width: 200px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+.selectEnglish{
+    width: 420px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #FFECA0;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+.radioBlock{
+    width: 372px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+}
+.NameEndPhone{
+    width: 420px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    width: 200px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #FFECA0;
+    border-radius: 10px;
+}
+.Email{
+    width: 420px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #FFECA0;
+    border-radius: 10px;
+}
+.Send{
+    width: 171px;
+    height: 54px;
+    background: #236967;
+    border-radius: 30px;font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    border: none;
+}
+.REGESTRATION{
+    width: 1046px;
+    height: 590px;
+    background: #FFFBED;
+    border-radius: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    margin-top: 140px;
+}
+.IMGregestration{
+    border-radius: 0px 70px 70px 0px;
+}
+.buttons{
+    width: 500px;
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: flex-end;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+
+
+.ChildrenText1 {
+    /* border: 1px solid red; */
+    width: 187px;
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    margin-top: 10px;
+}
+.OnlineText{
+    text-align: start;
+    /* border: 1px solid red;         */
+}
+.ChildrenBlock{
+    display: flex;
+    align-items: center;
+    width: 1033px;
+    height: 376px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.ChildrenBlock2{
+    display: flex;
+    align-items: center;
+    width: 1033px;
+    height: 376px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.onlineInfoText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    height: 200px;
+}
+.childrenImg5{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////// */
+
+
+.TextSmart{
+    width: 620px;
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+}
+.TextSmart h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 34px;
+}
+.TextSmart p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 30px
+}
+.TextSmartCont{
+    width: 874px;
+    height: 194px;
+    display: flex;
+    margin: auto; 
+}
+.S-block{
+    background-image: url(./assets/icon/S.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 101px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.M-block{
+    background-image: url(./assets/icon/M.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 101px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.A-block{
+    background-image: url(./assets/icon/A.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 101px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.R-block{
+    background-image: url(./assets/icon/R.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 101px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.T-block{
+    background-image: url(./assets/icon/T.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 101px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.smart-container{
+    width: 874px;
+    height: 98px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /* border: 1px solid; */
+}
+.StepsBlock{
+    margin: auto;
+    margin-top: 97px;
+    width: 882px;
+    height: 302px;
+    display: flex;
+   
+    justify-content: space-between; 
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.StepsText1{
+    width: 435px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid; */
+}
+.StepsText1 h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    /* border: 1px solid; */
+}
+.StepsText1 p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* border: 1px solid; */
+}
+
+.Step1{
+    width: 551.77px;
+    height: 178px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.Step1Text{
+    width: 355px;
+    height: 178px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(./assets/icon/1.png);
+    background-repeat: no-repeat;
+}
+.StepTextH2{
+    margin-left: 20px;
+}
+.StepTextSpan{
+    margin-left: 20px;
+}
+
+.Step3{
+    width: 545.77px;
+    height: 148px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.Step1Text3{
+    width: 349px;
+    height: 148px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(./assets/icon/3.png);
+    background-repeat: no-repeat;
+}
+.StepTextH2{
+    margin-left: 20px;
+}
+.StepTextSpan{
+    margin-left: 20px;
+}
+
+.Step2{
+    width: 545.93px;
+    height: 252px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.Step1Text2{
+    width: 354px;
+    height: 252px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(./assets/icon/2.png);
+    background-repeat: no-repeat;
+}
+.StepTextH2{
+    margin-left: 20px;
+}
+.StepTextSpan{
+    margin-left: 20px;
+}
+.SMAblock{
+    width: 478px;
+    height: 98px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.RTblock{
+    width: 307px;
+    height: 98px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Step4{
+    width: 507.93px;
+    height: 130.74px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.Step1Text4{
+    width: 316px;
+    height: 122px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(./assets/icon/4.png);
+    background-repeat: no-repeat;
+}
+.StepTextH2{
+    margin-left: 20px;
+}
+.StepTextSpan{
+    margin-left: 20px;
+}
+
+
+.Step5{
+    width: 240px;
+    height: 122px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.Step1Text5{
+    width: 316px;
+    height: 122px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(./assets/icon/5.png);
+    background-repeat: no-repeat;
+}
+.StepTextH2{
+    margin-left: 20px;
+    font-weight: 500;
+}
+.StepTextSpan{
+    margin-left: 20px;
+}
+.StepsContener{
+    width: 876px;
+    height: 1005px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 60px;
+}
+.stepBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* border: 1px solid; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////// */
+.historySubject{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 34px;
+}
+.historyImgAndText{
+    width: 677px;
+    height: 285px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 60px;
+}
+.history{
+    width: 874px;
+    height: 482px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+}
+.historyText{
+    width: 250px;
+    height: 107px;
+}
+.TimeTape{
+    margin-top: 60px;
+}
+.End{
+    background: #FFFBED;
+    border-radius: 70px 70px 0px 0px;
+    height: 430px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ForeignLanguages{
+    width: 185px;
+    height: 193px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid; */
+}
+.IMGregestration1{
+    display: none;
+}
+.EndText1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+.EndLogo{
+    width: 289px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.EndLogo button{
+    width: 214px;
+    height: 54px;
+    background: #236967;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+.EndContacts2{
+    width: 163px;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: end;
+    /* border: 1px solid; */
+}
+.endBlock{
+    width: 1260px;
+    height: 220px;
+    margin-top: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* border: 1px solid; */
+}
+.EndTextt{
+    width: 1260px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+
+.ImgBurgerMeny{
+    display: none;
+}
+.endBlock1{
+    width: 775px;
+    height: 208px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 375px){
+    .headerBlock2{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        margin-top: 60px;
+        justify-content: space-between;
+        height: 685px;
+        /* margin: auto; */
+    }
+    .select{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .block1{
+        width: 335px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-around; */
+        align-items: center;
+        /* border: 1px solid; */
+    }
+    .logotipePhone{
+        width: 195.2px;
+    }
+    .ImgBurgerMeny{
+        width: 20px;
+        height: 15px;
+        display: block;
+    }
+    .headerBlock2 h1{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 40px;
+        width: 295px;
+        height: 160px;
+    }
+    .headerBlock2 img{
+        width: 375px;
+        height: 375px;
+        margin-top: 60px;
+    }
+    .headerBlock2 button{
+        width: 213px;
+    height: 50px;
+    }
+    .headerText{
+        width: 295px;
+        height: 250px;
+    }
+    .imgBlock{
+        display: flex;
+        flex-direction: column;
+        width: 212px;
+        height: 320px;
+        justify-content: space-between;
+        /* border: 1px solid; */
+        margin: auto;
+        margin-top: 60px;
+    }
+    .english{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .imgKids{
+        width: 166px;
+        height: 130px;
+    }
+    .courses{
+        width: 375px;
+        height: 460px;
+        /* align-items: center; */
+        background: #FFFBED;
+        border-radius: 50px;
+    }
+    .contener1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 200px;
+        height: 330px;
+    }
+    .languages{
+        width: 170px;
+        height: 234px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .study h2{
+        width: 215px;
+        height: 56px;
+    }
+    .informationBlock{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 335px;
+        height: 658px;
+    }
+    .informationBlock h2{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .infoText1{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .infoBlock1{
+        width: 335px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .infoBlock2{
+        margin-top: 60px;
+    }
+    .MiniImg{
+        width: 36px;
+        height: 36px;
+    }
+    .text1{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .REGESTRATION{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 375px;
+        height: 822px;
+        overflow: hidden
+    }
+    .IMGregestration{
+        display: none;
+    }
+    .IMGregestration1{
+        display: block;
+        position: relative;
+        top: 26px;
+    }
+    .regestration h2{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .pol{
+        width: 335px;
+        height: 29px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .man{
+        width: 160px;
+        height: 29px;
+        justify-content: space-between;
+        text-align: center;
+        border-bottom: 2px solid #94C6C4;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .kid{
+        width: 160px;
+        height: 29px;
+        justify-content: space-between;
+        text-align: center;
+        border-bottom: 2px solid #94C6C4;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .textRegestration{
+        width: 212px;
+        height: 56px;
+    }
+    .selectEnglish{
+        width: 335px;
+        height: 42px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 16px;
+    }
+    .Radio1{
+        width: 133px;
+        height: 22px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .radioBlock{
+        width: 335px;
+        height: 22px;
+    }
+    .childrenImg5{
+        display: block;
+    }
+    .NameEndPhone{
+        width: 335px;
+        height: 42px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .name{
+        width: 158px;
+        height: 42px;
+        padding: 0px 20px;
+    }
+    .Email{
+        width: 336px;
+        height: 42px;
+        padding: 0px 20px;
+    }
+    .Send{
+        width: 153px;
+        height: 50px;
+        background: #236967;
+        border-radius: 30px;
+        margin: auto;
+    }
+    .buttonSend{
+        height: 50px;
+        width: 375px;
+        display: flex;
+    }
+    .IMGregestration{
+        width: 440px;
+        height: 290px;
+        transform: rotateZ(90deg);
+    }
+    .childrenImg1{
+        width: 355px;
+    }
+    .ChildrenInfo{
+        width: 304px;
+        height: 378px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+    .ChildrenBlock{
+        width: 355px;
+        height: 950px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: 1px solid; */
+    }
+    .ChildrenBlock2{
+        width: 355px;
+        height: 950px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: 1px solid; */
+    }
+    .ChildrenImg1{
+        display: block;
+    }
+    .childrenImg5{
+        width: 360.47px;
+        height: 246px;
+    }
+    .childrenImg6{
+        display: none;
+    }
+    .TextSmart{
+        width: 335px;
+        height: 224px;
+        /* border: 1PX SOLID; */
+    }
+    .TextSmartCont{
+        width: 335px;
+        height: 224px;
+    }
+    .TextSmart h2{
+        width: 194px;
+        height: 84px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .TextSmart p{
+        width: 335px;
+        height: 110px;      
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .RTblock{
+        width: 223px;
+        height: 92px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* border: 1px solid; */
+        margin: auto;
+    }
+    .SMAblock{
+        width: 335px;
+        height: 91px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .smart-container{
+        width: 335px;
+        height: 218px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .StepsimgBlock1{
+        width: 350px;
+        height: 268px;
+    }
+    .StepsBlock{
+        width: 350px;
+        height: 459px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .StepsText1 p{
+        width: 309px;
+        height: 88px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .StepsText1{
+        width: 309px;
+        height: 130px;
+    }
+    .StepsContener{
+        width: 351px;
+        height: 813px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: 1px solid; */
+    }
+    .StepArrow{
+       display: none;
+    }
+    .Step1{
+        width: 289px;
+        height: 172px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Step1 h2{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .Step1 span{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .Step2{
+        width: 351px;
+        height: 169px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Step1Text2 h2{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .StepTextH2{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .Step2 span{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .Step3{
+        width: 300px;
+        height: 126px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Step3Text2 h2{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .Step3 span{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .Step4{
+        width: 270px;
+        height: 104px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Step3Text2 h2{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .Step3 span{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .stepBlock{
+        display: flex;
+        align-items: start;
+    }
+    .Step5{
+        width: 198px;
+        height: 104px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Step3Text2 h2{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .Step3 span{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .historySubject{
+        width: 226px;
+        height: 56px;
+    }
+    .historySubject h2{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .history{
+        height: 620px;
+        width: 345px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .historyImgAndText{
+        width: 345px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: 1px solid; */
+    }
+    .TimeTape{
+        width: 375px;
+    }
+    .TimeImg{
+        width: 375px;
+    }
+    .endBlock1{
+        width: 289px;
+        height: 422px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between ;
+        align-items: center;
+        text-align: center;
+    }
+    .End{
+        width: 375px;
+        height: 848px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .EndLogoTipe{
+        width: 289px;
+        display: flex;
+        align-items: baseline;
+    }
+    .endBlock{
+        width: 286px;
+        height: 630px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .EndContacts2{
+        text-align: center;
+    }
+    .EndTextt{
+        width: 334px;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .EndTextt span{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        width: 136px;
+        height: 48px;
+    }
+
+    .contender2{
+        width: 375px;
+        display: inline-block;
+    }
+}
